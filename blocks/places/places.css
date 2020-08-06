@@ -1,0 +1,49 @@
+.places {
+  max-width: 320px;
+  min-height: 5172px;
+  margin: 0 auto;  
+  padding-bottom: 64px
+}
+
+@media screen and (min-width: 595px) {
+  .places {
+    max-width: 595px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 665px) {
+  .places {
+    min-height: 4700px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    min-height: 3147px;
+    max-width: 720px;
+    margin: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  .places {
+    max-width: 900px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    min-height: 3432px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    min-height: 3434px;
+    max-width: 984px;
+    margin: 0 148px;
+  }
+}

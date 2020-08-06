@@ -1,0 +1,52 @@
+@import url(./__caption/__caption.css);
+@import url(./__image/__image.css);
+@import url(./__subtitle/__subtitle.css);
+@import url(./__title/__title.css); 
+
+.lead {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 406px;
+  max-width: 320px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 470px) {
+  .lead {
+    max-width: 470px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 665px) {
+  .lead {
+    max-width: 665px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    min-height: 862px;
+    max-width: 768px;
+    padding-bottom: 88px; 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    min-height: 962px;
+    max-width: 928px;
+    padding-bottom: 92px; 
+    margin: 0 auto;
+  } 
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    min-height: 1005px;
+    max-width: 984px;
+    padding-bottom: 92px; 
+    margin: 0 auto;
+  }
+}

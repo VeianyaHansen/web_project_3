@@ -1,0 +1,35 @@
+.footer__links {
+  padding: 0 18px 32px 0;
+  min-width: 42px;
+  min-height: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+
+.footer__links:nth-child(2) {
+  min-width: 64px;
+}
+
+.footer__links:nth-child(3) {
+  min-width: 69px;
+}
+
+.footer__links:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    min-height: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 18px 0 0;
+    margin: 0;
+  } 
+}
