@@ -1,7 +1,7 @@
-@import url(./__container/__container.css);
-@import url(./__copyright/__copyright.css);
-@import url(./__link/__link.css);
-@import url(./__links/__links.css);
+@import url(./__container/footer__container.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
 
 .footer {
   padding: 61px 136px 24px 16px;

@@ -1,7 +1,6 @@
 .intro__list {
   font-family: Inter;
   font-style: normal;
-  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
@@ -9,6 +8,10 @@
   list-style-type: none;
   padding: 0 16px 64px 16px;
   margin: 0;
+}
+
+.intro__list_bold {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 595px) {

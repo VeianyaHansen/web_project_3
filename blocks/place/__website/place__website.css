@@ -14,7 +14,7 @@
    }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .place__website {
     min-width: 456px;
     padding: 0 0 48px 0;

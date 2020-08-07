@@ -1,0 +1,5 @@
+.header__lang-link {
+  display: flex;
+  height: 36px;
+  align-items: flex-end;
+}
