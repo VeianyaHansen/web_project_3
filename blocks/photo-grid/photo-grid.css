@@ -10,6 +10,14 @@
   gap: 12px;
 }
 
+@media screen and (min-width: 470px) {
+  .photo-grid {
+    max-width: 470px;
+    min-height: 1370px;
+    justify-items: center;
+  }
+}
+
 @media screen and (min-width: 595px) {
   .photo-grid {
     max-width: 595px;

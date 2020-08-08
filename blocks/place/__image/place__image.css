@@ -32,16 +32,16 @@
   }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .place__image {
-    height: 440px;
-    width: 440px;
+    max-height: 440px;
+    max-width: 440px;
   }   
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    height: 460px;
-    width: 460px;
+    max-height: 460px;
+    max-width: 460px;
   }
 }

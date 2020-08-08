@@ -12,6 +12,7 @@
 
 .intro__list_bold {
   font-weight: bold;
+  padding: 0;
 }
 
 @media screen and (min-width: 595px) {
@@ -29,7 +30,7 @@
 @media screen and (min-width: 768px) {
   .intro__list {
     width: 690px;
-    padding: 0 0 70px 24px;
+    padding: 0 0 70px 12px;
   }
 }
 

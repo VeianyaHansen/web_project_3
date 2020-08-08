@@ -3,6 +3,18 @@
   margin: 0;
 }
 
+@media screen and (min-width: 360px) {
+  .page__container {
+    max-width: 360px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .page__container {
+    max-width: 420px;
+  }
+}
+
 @media screen and (min-width: 470px) {
   .page__container {
     max-width: 470px;

@@ -24,6 +24,10 @@
 }
 
 @media screen and (min-width: 595px) {
+  .intro__text {
+    min-height: 60px;
+  }
+  
   .intro__text:last-of-type {
     min-height: 0;
   }
