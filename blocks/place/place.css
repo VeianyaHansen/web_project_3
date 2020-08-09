@@ -13,6 +13,10 @@
   color: #aaaaaa;
 }
 
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 595px) {
   .place {
     max-width: 595px;
@@ -51,9 +55,9 @@
     grid-template-columns: 440px 456px;
     grid-template-rows: repeat(2, auto);
     gap: 24px 32px;
-    padding: 0 48px 110px;
+    padding: 0 48px 80px;
     margin: 0;
-  }
+  } 
 }
 
 @media screen and (min-width: 1280px) {
@@ -62,6 +66,6 @@
     grid-template-rows: repeat(2, auto);
     max-width: 984px;
     gap: 24px 40px;
-    padding: 0 0 80px;    
-  } 
+    padding: 0 0 80px;
+  }
 }

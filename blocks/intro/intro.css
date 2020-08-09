@@ -32,26 +32,39 @@
   }
 }
 
+@media screen and (min-width: 420px) {
+  .intro {
+    max-width: 400px; 
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 595px) {
+  .intro {
+    max-width: 475px; 
+  }
+}
+
 @media screen and (min-width: 768px) {
   .intro {
     min-height: 543px;
     max-width: 720px; 
     margin: 0; 
-    padding: 0;  
+    padding: 0 24px 88px;  
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 1024px) {
   .intro {
-    max-width: 999px; 
-    margin: 0 48px;   
-  }
-}
-
-@media screen and (min-width: 1024) {
-  .intro {
-    min-height: 596px;
+    min-height: 569px;
     max-width: 690px;
-    padding-bottom: 92px;
+    padding: 0 48px 92px;
   } 
-}
+}  
+
+  @media screen and (min-width: 1280px) {
+    .intro {
+      max-width: 690px;
+      padding: 0 148px 92px;
+    } 
+  }  

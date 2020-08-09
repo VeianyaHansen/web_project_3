@@ -20,10 +20,9 @@
 
 @media screen and (min-width: 768px) {
   .places {
-    min-height: 3147px;
+    min-height: 3148px;
     max-width: 720px;
-    margin: 0;
-    padding-bottom: 0;
+    padding-bottom: 88px;
   }
 }
 
@@ -37,6 +36,7 @@
   .places {
     min-height: 3432px;
     max-width: 928px;
+    padding-bottom: 92px;
   }
 }
 

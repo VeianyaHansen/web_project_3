@@ -23,16 +23,13 @@
   .place__paragraph:last-of-type {
     padding: 0;
   }
+
 }    
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
     max-width: 352px;
     padding: 0 0 24px;    
-  }
-
-  .place__paragraph:last-of-type {
-    padding: 0 0 0;
   }
 }
 

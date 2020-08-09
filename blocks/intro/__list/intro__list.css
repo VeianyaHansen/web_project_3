@@ -5,8 +5,9 @@
   line-height: 18px;
   color: #FFFFFF;
   min-height: 72px;
+  min-width: 288px;
   list-style-type: none;
-  padding: 0 16px 64px 16px;
+  padding: 0 16px 64px;
   margin: 0;
 }
 
@@ -15,35 +16,27 @@
   padding: 0;
 }
 
-@media screen and (min-width: 595px) {
-  .intro__list {
-    padding-bottom: 0;
-  }
-}
-
 @media screen and (min-width: 665px) {
   .intro__list {
+    min-width: 720px;
     padding: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
   .intro__list {
-    width: 690px;
-    padding: 0 0 70px 12px;
+    min-width: 720px;
   }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .intro__list {
     min-width: 690px;
-    padding: 0 0 0 48px;
   }  
 }
 
 @media screen and (min-width: 1280px) {
   .intro__list {
     min-width: 690px;
-    padding: 0 442px 92px 148px;
-  }
+   }
 }

@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
-  padding: 0 0 16px 0;
+  padding: 51px 16px 16px;
   margin: 0;
   text-align: center;
   position: relative;
@@ -16,20 +16,20 @@
   .cover__title {
     min-height: 76px;
     font-size: 72px;
-    padding-top: 153px;
+    padding: 0 0 32px;
   }
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .cover__title {
     min-height: 76px;
-    padding-top: 233px;
+    padding: 233px 0 32px;
   }  
 }
 
 @media screen and (min-width: 1280px) {
   .cover__title {
     min-height: 76px;
-    padding-top: 283px;
+    padding: 283px 0 32px;
   }
 }
